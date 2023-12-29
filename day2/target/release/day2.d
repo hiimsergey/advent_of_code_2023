@@ -1,1 +1,0 @@
-/home/sergey/downloads/advent_of_code/day2/target/release/day2: /home/sergey/downloads/advent_of_code/day2/src/input /home/sergey/downloads/advent_of_code/day2/src/main.rs /home/sergey/downloads/advent_of_code/day2/src/one.rs /home/sergey/downloads/advent_of_code/day2/src/two.rs
