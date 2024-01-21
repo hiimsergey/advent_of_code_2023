@@ -23,6 +23,7 @@ pub fn one() {
         })
         .map(|(_, gn)| { gn.value })
         .sum();
+    
     // TODO TEST
     // Builds a vector of all the linear indices of all the adjacent numbers' first
     // digits.

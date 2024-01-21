@@ -1,1 +1,0 @@
-/home/sergey/stuff/rust/advent_of_code_2023/day1/target/release/day1: /home/sergey/stuff/rust/advent_of_code_2023/day1/src/input /home/sergey/stuff/rust/advent_of_code_2023/day1/src/main.rs /home/sergey/stuff/rust/advent_of_code_2023/day1/src/one.rs /home/sergey/stuff/rust/advent_of_code_2023/day1/src/two.rs
