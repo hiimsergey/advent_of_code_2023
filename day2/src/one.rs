@@ -28,7 +28,7 @@ fn is_game_possible(game: &str) -> bool {
 // A vector of the combinations of number and color for this game is built
 // starting from the position of the colon + 2 to skip the "Game: " part
 pub fn get_games_vec(game: &str) -> Vec<(u32, &str)> {
-    return game[game.chars().position(|x| x == ':').unwrap() + 2..]
+    game[game.chars().position(|x| x == ':').unwrap() + 2..]
         // A single collection is built by splitting by commas and semicolons
         .split(|c: char| c.is_ascii_punctuation())
         .map(|num_color_str| {
@@ -36,5 +36,5 @@ pub fn get_games_vec(game: &str) -> Vec<(u32, &str)> {
             // Returns a tuple (number of cubes, color) 
             (num_color_vec[0].parse().unwrap(), num_color_vec[1])
         })
-        .collect();
+        .collect()
 }

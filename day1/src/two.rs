@@ -28,7 +28,7 @@ fn first_number(line: &str, digits: &Digits) -> u32 {
         }
     }
 
-    return 0;
+    0
 }
 
 fn last_number(line: &str, digits: &Digits) -> u32 {
@@ -42,5 +42,5 @@ fn last_number(line: &str, digits: &Digits) -> u32 {
         }
     }
     
-    return 0; // this line is only needed to please the compiler
+    0 // this line is only needed to please the compiler
 }

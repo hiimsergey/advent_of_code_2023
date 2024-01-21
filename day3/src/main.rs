@@ -1,4 +1,4 @@
-use mod one;
+mod one;
 
 fn main() {
     one::one();
